@@ -23,6 +23,7 @@
         ]
     },
     "require": {
+        "mehmetriza/numbery": "dev-main",
         "php": ">=7.3"
     },
     "require-dev": {
