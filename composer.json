@@ -1,0 +1,31 @@
+{
+    "name": "mehmetriza/numbery",
+    "description": "Php string to number and validation convert function",
+    "keywords": [
+        "string number",
+        "number validation",
+        "string convert",
+        "number convert",
+        "check number",
+        "php number"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mehmet Rıza Küçükosmanoğlu",
+            "email": "rizakucukosmanoglu@gmail.com",
+            "homepage": "https://github.com/mehmetriza"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require": {
+        "php": ">=7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "10"
+    }
+}
