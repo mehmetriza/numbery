@@ -1,6 +1,13 @@
+
+### Php string to number and validation convert function
+<br>
+
+# install
+    composer require mehmetriza/numbery
+
 # Usage
 ```php
-require "Numbery.php";
+require "vendor/autoload.php";
 
 
     Numbery::parse("1.000,00 €") // string number 
