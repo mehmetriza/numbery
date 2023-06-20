@@ -10,7 +10,7 @@
 require "vendor/autoload.php";
 
 
-    Numbery::parse("1.000,00 €") // string number 
+    Numbery::parse("$1.000,00 adam") // string number 
         ->decimal(2,true) // decimal count, optional (true|false)
         ->decimalSeparator(',') // using decimal operator
         ->thousandsSeparator('.') // thousand seperator chracter
