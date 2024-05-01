@@ -103,7 +103,7 @@ class Numbery
             
             $is_match = preg_match("/".preg_quote($seperator, "/")."(\d+)$/",self::$number,$matchData);
             if ($is_match && is_numeric($matchData[1])) {
-                if (strlen($matchData[1]) != self::$decimal) {
+                if (self::$decimal >=0 && strlen($matchData[1]) != self::$decimal) {
                     throw new DecimalException("Decimal count incompatible!");
                 }
                 self::$numberDecimal = $matchData[1];
